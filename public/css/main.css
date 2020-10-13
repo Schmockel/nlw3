@@ -7,6 +7,7 @@
 body {
     height: 100vh;
     color: white;
+    background: #EBF2F5 ;
 }
 
 :root{
@@ -19,4 +20,3 @@ bottom,
 textarea {
    font: 400 18px/1 'Nunito',sans-serif;
 }
-
