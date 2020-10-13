@@ -2,3 +2,43 @@ irei colocar algumas anotações pessoais nesse README
 
 CSS
 /* um #body é prioritario a um 'body'*/
+
+em page-orphanage.css,fora feito o seguinte codigo
+.orphanage-details > img {
+
+}
+
+este > faz com que o codigo pegue a imagem do 1° nivel
+que esta relacionado ao codigo de orphanage.html
+
+exemplificando,neste codigo,ele só ira pegar a imagem com "->"
+ <main class="animate-appear width-sidebar">
+      <div class="orphanage-details">
+     -> <img src="./public/images/home.jpg" alt="Lar das meninas">
+
+        <div class="images">
+          <button class="active" type="button">
+            <img src="./public/images/home.jpg" alt="Lar das meninas">
+          </button>
+
+          <button type="button">
+            <img src="./public/images/home.jpg" alt="Lar das meninas">
+          </button>
+
+          <button type="button">
+            <img src="./public/images/home.jpg" alt="Lar das meninas">
+          </button>
+
+          <button type="button">
+            <img src="./public/images/home.jpg" alt="Lar das meninas">
+          </button>
+
+          <button type="button">
+            <img src="./public/images/home.jpg" alt="Lar das meninas">
+          </button>
+
+          <button type="button">
+            <img src="./public/images/home.jpg" alt="Lar das meninas">
+          </button>
+
+        </div>
