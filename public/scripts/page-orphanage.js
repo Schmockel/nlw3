@@ -20,7 +20,26 @@ const icon = L.icon({
     popupAnchor: [170,2]
 })
 
-
 //create and add marker
 L.marker([-27.2190475,-49.652766], {icon})
   .addTo(map)
+
+/*image gallery*/
+function selectImage(event){
+    const button = event.currentTarget
+
+    //remover todas as classes .active
+    const buttons = document.querySelectorAll(".images button")
+    buttons.forEach(removeActiveClass)
+
+    function removeActiveClass(button){
+        button.classList.remove("active")
+    }
+
+    //selecionar a imagem clicada
+
+    //atualuzar o container da imagem as
+    
+    //adicionar a classe .active para este botão
+    button.classList.add('active')
+}
