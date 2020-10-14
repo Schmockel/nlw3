@@ -29,3 +29,8 @@ map.on('click', (event) => {
     marker = L.marker([lat, lng], { icon })
     .addTo(map)
 })
+
+//adicionar o campo de fotos
+function addPhotoField(){
+    console.log("esta funcionando")
+}
