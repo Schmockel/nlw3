@@ -20,6 +20,7 @@
   <link rel="icon" href="./public/images/logo-icon.png" />
 
   <link rel="stylesheet" href="./public/css/main.css" />
+  <link rel="stylesheet" href="./public/css/map.css" />
   <link rel="stylesheet" href="./public/css/sidebar.css" />
   <link rel="stylesheet" href="./public/css/animations.css" />
   <link rel="stylesheet" href="./public/css/page-create-orphanage.css" />
@@ -43,7 +44,27 @@
       <form action="">
         <fieldset>
           <legend>Dados</legend>
+
+          <div class="map-container">
+            <div id="mapid"></div>
+
+            <footer>
+              <a href="#" id="select-point">
+                Clique no mapa para adicionar a localização
+              </a>
+            </footer>
+          </div>
+
+
+
+
+
+           <div class="input-block">
+            <label for="name">Nome</label>
+            <input id="name" name="name"></input>
+           </div>
         </fieldset>
+       
 
         <fieldset>
           <legend>Visitação</legend>
