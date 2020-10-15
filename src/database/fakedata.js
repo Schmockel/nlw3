@@ -1,6 +1,6 @@
-module.exports[
+module.exports = [
     {
-        id=1,
+        id: 1,
         lat: "-27.2190475",
         lng: "-49.652766",
         name :"Lar das meninas",
@@ -16,7 +16,7 @@ module.exports[
     },
 
     {
-        id=2,
+        id: 2,
         lat: "-27.3190475",
         lng: "-49.552766",
         name :"Lar dos meninos",
@@ -29,6 +29,6 @@ module.exports[
         instructions : "Venha como se sentir a vontade e traga muito amor e paciência pra dar",
         opening_hours :"Horários de visitas Das 6h até as 18h",
         open_on_weekends: "0"
-    }
+    },
 
 ]
