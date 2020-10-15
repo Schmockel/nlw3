@@ -9,13 +9,12 @@ server
 .use(express.static('public'))
 
 //configurar template engine
-.set('views', path.join(__dirname, "view"))
+.set('views', path.join(__dirname, "views"))
 .set('view engine', 'hbs')
 
 //criar rota
 server.get('/', (request, response) => {
-    console.log(request.query)
-    return response.sendFile(path.join(__dirname, 'views', 'index.html'))
+    return response.render('index')
 })
 
 //ligar o server
