@@ -42,3 +42,7 @@ exemplificando,neste codigo,ele só ira pegar a imagem com "->"
           </button>
 
         </div>
+
+##gitignore
+
+no git ignore esta os arquivos node_modules

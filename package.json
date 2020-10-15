@@ -1,0 +1,23 @@
+{
+  "name": "NLW3",
+  "version": "1.0.0",
+  "description": "projeto de site da Next Level Week #3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schmockel/nlw3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Schmockel/nlw3/issues"
+  },
+  "homepage": "https://github.com/Schmockel/nlw3#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
