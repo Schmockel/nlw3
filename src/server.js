@@ -1,6 +1,7 @@
 //importar dependencias
 const express = require('express');
 const path = require('path');//pode evitar alguns erros de \ e /
+const pages = require('./pages.js');
 
 //iniciando o express
 const server = express();
@@ -13,9 +14,7 @@ server
 .set('view engine', 'hbs')
 
 //criar rota
-server.get('/', (request, response) => {
-    return response.render('index')
-})
+.get('/', pages.index) 
 
 //ligar o server
 server.listen(5500)
