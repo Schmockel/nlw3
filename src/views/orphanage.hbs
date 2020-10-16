@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt_br">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Orfanato Lar das Meninas | Happy</title>
+  <title>{{orphanage.name}}</title>
 
   <!-- link abaixo é do mapa-->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
@@ -73,9 +73,12 @@
 
         <div class="orphanage-details-content">
 
-          <h1>Lar das meninas</h1>
+          <h1>{{orphanage.name}}</h1>
 
           <p>
+
+            {{orphanage.images}}
+
             Presta assitência a crianças de 06 a 16 anos que se encontre em situação de risco e/ou vulnerabilidade
             social.
           </p>
