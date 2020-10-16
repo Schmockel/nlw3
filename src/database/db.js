@@ -8,6 +8,7 @@ function execute (db) {
           lat TEXT,
           lng TEXT,
           name TEXT,
+          about TEXT,
           whatsapp TEXT,
           images TEXT,
           instructions TEXT,
