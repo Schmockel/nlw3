@@ -128,9 +128,18 @@ main {
 }
 
 .open-details .open-on-weekends{
-    background: linear-gradient(149.97deg, #E6F7FB 8.13%,#FFFFFF 92.67%);
-    border: 1px solid #A1E9C5;
     border-radius: 20px;
 
+}
+
+.open-on-weekends.open {
+    background: linear-gradient(149.97deg, #E6F7FB 8.13%,#FFFFFF 92.67%);
+    border: 1px solid #A1E9C5;
     color: #37C77F;
+}
+
+.open-on-weekends.closed {
+    background: linear-gradient(149.97deg, #FCF0F4 8.13%,#FFFFFF 92.67%);
+    border: 1px solid #FFBCD4;
+    color: #FF999D;
 }
